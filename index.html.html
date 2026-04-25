@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" contentt="width=device-width,initial-scale=1.0">
+        <title>HOODIE4Y</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header class=" header top-bar">
+<a href=""class="logo"><img src="logo.jpeg" alt=""></a>
+
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#new-arrivals">Hoodies</a>
+                <a href="#contact">Contact</a>
+                 
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                  <a href="login.html"> <i class="fa-solid fa-user"></i></a>
+                                    
+<i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+            
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>EMBRACCE YOUR<br>EVERYDAY ELEGANCE.</h1>
+                <p>SHOP THE COLLECTION</p>
+
+            </div>
+            </section>
+            <section class="new-arrivals-section" id="new-arrivals">
+                <h2 class="section-title">NEW ARRIVALS</h2>
+
+
+            </section>
+            
+         <section class="gallery">
+            <div class="container">
+                <div class="card">
+                     <img src="./b.jpeg" alt="">
+                     <p>Price:700 EGP</p>
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+                </div>
+                <div class="card">
+                      <img src="./pink.jpeg" alt="">
+                       <p>Price:550 EGP</p>
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="./6.jpeg" alt="">
+                    <p>Price:550 EGP</p>  
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+
+                </div>
+            </div>
+
+                <div class="container">
+                    <div class="card">
+                         <img src="./1.jpeg" alt="">
+                          <p>Price:450 EGP</p>  
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+                    </div>
+                    <div class="card">
+                        <img src="./4.jpeg" alt="">
+                         <p>Price:450 EGP</p>  
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+                    </div>
+                    <div class="card">
+                         <img src="./2.jpeg" alt="">
+                          <p>Price:400 EGP</p>  
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card">
+                         <img src="./5.jpeg" alt="">
+                          <p>Price:500 EGP</p>  
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+                    </div>
+                    <div class="card">
+                        <img src="./img.jpeg" alt="">
+                         <p>Price:650 EGP</p>  
+                     <p>Size: S - M - L</p>
+                     <button class="cartBtn">Add to cart</button>
+                    </div>
+                    <div class="card">
+                         <img src="./a.jpeg" alt="">
+                         <p>Price:600 EGP</p>  
+                     <p>Size: S - M - L</p>
+<button class="cartBtn">Add to cart</button>
+
+                    </div>
+                </div>
+            </section>
+           <div class="contact-box">
+    <h2>تواصل معنا مباشرة</h2>
+
+    <div class="icons">
+        <a href="https://wa.me/201234567890" target="_blank" class="item">
+            <div class="circle whatsapp">
+                <i class="fab fa-whatsapp"></i> </div>
+            <p>واتساب</p>
+            <span>+20 123 456 789</span>
+        </a>
+
+        <a href="https://instagram.com/username" target="_blank" class="item">
+            <div class="circle instagram">
+                <i class="fab fa-instagram"></i> </div>
+            <p>انستجرام</p>
+            <span>@username</span>
+        </a>
+
+        <a href="https://facebook.com/username" target="_blank" class="item">
+            <div class="circle facebook">
+                <i class="fab fa-facebook-f"></i> </div>
+            <p>فيسبوك</p>
+            <span>/username</span>
+        </a>
+    </div>
+</div>
+    
+
+
+            <div id="toast">✅ Added to cart successfully!</div>
+           <script>
+    document.addEventListener("click", function(e) {
+        if (e.target && e.target.classList.contains("cartBtn")) {
+            const toast = document.getElementById("toast");
+            toast.classList.add("show");
+            setTimeout(() => {
+                toast.classList.remove("show");
+            }, 3000);
+        }
+    });
+</script>
+         
+</body>
+</html>
